@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bigdata-mongodb-project"
+version = "0.1.0"
+description = "Big Data project using MongoDB and Chicago Building Permits dataset"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pymongo = "^4.6.0"
+requests = "^2.31.0"
+matplotlib = "^3.8.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
